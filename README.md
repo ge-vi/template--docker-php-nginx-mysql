@@ -1,20 +1,3 @@
-# notes
+Simple project setup to work with `nginx`, `php8` and `mysql` in docker container.
 
-`php artisan migrate`
-
-`php artisan make:migration create_categories_table`
-
-`php artisan make:controller HomeController`
-
-`php artisan make:model Category`
-
-Generate **Post** class model which will represent **Posts** + make migration
-`php artisan make:model Post -m`
-
-
----
-
-
-https://bootcamp.laravel.com/ 
-
-https://laravel.com/docs/9.x/vite
+xdebug included with phpstorm environment: `PHP_IDE_CONFIG: "serverName=php81"`
